@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hardware_interface = amr.hardware_interface:main'
-            'hardware_interface_motor_only = amr.hardware_interface:main'
+            'hardware_interface = amr.hardware_interface:main',
+            'hardware_interface_motor_only = amr.hardware_interface:main',
             'contact_force = amr.contact_force:main'
         ],
     },
